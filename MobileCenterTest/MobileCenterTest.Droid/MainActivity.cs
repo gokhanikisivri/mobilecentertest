@@ -20,6 +20,7 @@ namespace MobileCenterTest.Droid
 
             base.OnCreate(bundle);
 
+
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
             MobileCenter.Configure("c05e4853-24d1-4288-bea0-c9ef8a782e58");
